@@ -1,0 +1,90 @@
+*{
+    padding: 10px;
+    margin: 0px;
+}
+ul{
+    list-style: none; /*estilos de las listas*/
+}
+ul li{
+    font family:'segoe UI', Tahoma, Geneva, Verdana, sans-serif; */Tipo de letra*/
+    font-size: 22px; /*tamaño de letra*/ 
+    height: 60px;/*Altura de cada opcion de la lista*/
+}
+ul li a{
+    height: 60px; /*Altura*/
+    background-color: rgb(1, 251, 255); /*color de fondo*/
+    display: block;
+    border-left: 10px solid rgb(0, 132, 255);
+    border-right: 5px solid rgb(253, 4, 4);
+    padding-left: 15px; /*separación izquierda del texto*/
+    text-decoration: none;
+    color: #ffffff
+}
+ul li a:hover{
+    margin-left: 10px; /*separacion del lado izquierdo*/
+    color: #ffffff; /*color de la letra*/
+    background-color: #ffffff; /*color de fondo*/
+    box-shadow: 10px 10 px 20 px rgb(255, 255, 255); /*sombra*/
+    transform: rotate(4deg); /*movimiento de rotación*/
+    -moz-transform: rotate(4deg);
+    -webkit-transform: rotate(4deg) ;
+}
+td{
+    vertical-align: top;
+}
+body {
+    background-color: #0022ff;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 22px;
+}
+td{
+    vertical-align: text-top;
+}
+ul{
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+div {
+    color: #ffffff;
+    height: 100%;
+    height: 100%;
+    padding: 20px 10px 20px 40px;
+    margin: 10px;
+    border: 1px solid #ed1313;
+    background-color: #000000;
+    border-radius: 15px;
+    border: solid 2px #d020ef;
+    border-radius: 15px 0px 15px 0px;
+    box-shadow: 2px 2px 5px #6fbae0;
+}
+
+/*Estilos de pie de pagina*/
+footer{
+    position: relative;
+    margin-top: -10px;
+    width: 100%;
+    padding: 50px;
+    clear: both;
+    background: #ffffff;
+    text-align: center;
+    color: #ffffff;
+}
+html {
+    min-height: 100%;
+    position: relative;
+  }
+  body {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  footer {
+    background-color: black;
+    bottom: 0;
+    width: 0%;
+    color: white;
+  }
